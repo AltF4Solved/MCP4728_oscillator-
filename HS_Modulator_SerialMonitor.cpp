@@ -8,9 +8,9 @@
 #define MCP4728_I2C_ADDRESS 0x60
 
 // sine wave parameters - carrier and modulator
-#define CARRIER_FREQUENCY 20000.0     // 1 kHz carrier wave
-#define MODULATOR_FREQUENCY 4000.0    // 100 Hz modulator wave
-#define SAMPLE_RATE 400000            // 40kHz sample rate
+#define CARRIER_FREQUENCY 20000.0     // 20 kHz carrier wave
+#define MODULATOR_FREQUENCY 4000.0    // 4 kHz modulator wave
+#define SAMPLE_RATE 400000            // 400 kHz sample rate
 #define DAC_RESOLUTION 4095          // 12-bit DAC (0-4095)
 
 // modulation depth (0.0-1.0, where 1.0 is 100% modulation)
